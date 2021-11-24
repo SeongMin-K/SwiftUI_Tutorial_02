@@ -20,12 +20,18 @@ struct ContentView: View {
                                 .font(.largeTitle)
                                 .foregroundColor(Color.black)
                         }
+                        
                         Text("To do list")
                             .font(.system(size: 30))
                             .fontWeight(.black)
+                        
                         Spacer()
-                        Image(systemName: "person.crop.circle")
-                            .font(.largeTitle)
+                        
+                        NavigationLink(destination: MyProfile(isNavigationBarHidden: $isNavigationBarHidden)) {
+                            Image(systemName: "person.crop.circle")
+                                .font(.largeTitle)
+                                .foregroundColor(Color.black)
+                        }
                     }
                     
                     ScrollView {

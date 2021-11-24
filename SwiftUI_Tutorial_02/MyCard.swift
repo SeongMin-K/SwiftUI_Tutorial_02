@@ -22,10 +22,12 @@ struct MyCard: View {
             
             VStack(alignment: .leading, spacing: 0) {
                 Rectangle().frame(height: 0)
+                
                 Text(text)
                     .bold()
                     .foregroundColor(Color.white)
                     .font(.system(size: 25))
+                
                 Text(time)
                     .font(.subheadline)
                     .foregroundColor(Color.white)

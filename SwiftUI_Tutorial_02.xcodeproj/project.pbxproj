@@ -13,6 +13,7 @@
 		3E0E6B97274B8D62006CB30C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E0E6B96274B8D62006CB30C /* Preview Assets.xcassets */; };
 		3E0E6B9E274B8DB9006CB30C /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0E6B9D274B8DB9006CB30C /* MyCard.swift */; };
 		3E1C5D08274CE612008AB261 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1C5D07274CE612008AB261 /* MyList.swift */; };
+		3EF05F86274DFEA800F0197C /* MyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF05F85274DFEA800F0197C /* MyProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		3E0E6B96274B8D62006CB30C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3E0E6B9D274B8DB9006CB30C /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 		3E1C5D07274CE612008AB261 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
+		3EF05F85274DFEA800F0197C /* MyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +59,11 @@
 			children = (
 				3E0E6B8F274B8D61006CB30C /* SwiftUI_Tutorial_02App.swift */,
 				3E0E6B91274B8D61006CB30C /* ContentView.swift */,
-				3E0E6B93274B8D62006CB30C /* Assets.xcassets */,
-				3E0E6B95274B8D62006CB30C /* Preview Content */,
 				3E0E6B9D274B8DB9006CB30C /* MyCard.swift */,
 				3E1C5D07274CE612008AB261 /* MyList.swift */,
+				3EF05F85274DFEA800F0197C /* MyProfile.swift */,
+				3E0E6B93274B8D62006CB30C /* Assets.xcassets */,
+				3E0E6B95274B8D62006CB30C /* Preview Content */,
 			);
 			path = SwiftUI_Tutorial_02;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E0E6B92274B8D61006CB30C /* ContentView.swift in Sources */,
+				3EF05F86274DFEA800F0197C /* MyProfile.swift in Sources */,
 				3E1C5D08274CE612008AB261 /* MyList.swift in Sources */,
 				3E0E6B90274B8D61006CB30C /* SwiftUI_Tutorial_02App.swift in Sources */,
 				3E0E6B9E274B8DB9006CB30C /* MyCard.swift in Sources */,

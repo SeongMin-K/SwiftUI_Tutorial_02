@@ -48,15 +48,16 @@ struct ContentView: View {
                         }
                     }
                 }.padding(.horizontal, 10)
-                
-                Image(systemName: "plus")
-                    .font(.system(size: 30))
-                    .frame(width: 60, height: 60)
-                    .background(Color.black)
-                    .foregroundColor(Color.white)
-                    .clipShape(Circle())
-                    .padding(10)
-                    .shadow(radius: 20)
+                NavigationLink(destination: MyGeometryReaderVStack()) {
+                    Image(systemName: "g.square")
+                        .font(.system(size: 30))
+                        .frame(width: 60, height: 60)
+                        .background(Color.black)
+                        .foregroundColor(Color.yellow)
+                        .clipShape(Circle())
+                        .padding(10)
+                        .shadow(radius: 20)
+                }
             }
             .navigationBarHidden(self.isNavigationBarHidden)
             .onAppear {

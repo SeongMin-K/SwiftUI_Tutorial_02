@@ -48,22 +48,36 @@ struct ContentView: View {
                         }
                     }
                 }.padding(.horizontal, 10)
-                NavigationLink(destination: MyGeometryReaderVStack()) {
-                    Image(systemName: "g.square")
-                        .font(.system(size: 30))
-                        .frame(width: 60, height: 60)
-                        .background(Color.black)
-                        .foregroundColor(Color.yellow)
-                        .clipShape(Circle())
-                        .padding(10)
-                        .shadow(radius: 20)
+                
+                HStack {
+                    NavigationLink(destination: MyCustomTabView(tabIndex: .home)) {
+                        Image(systemName: "t.square")
+                            .font(.system(size: 30))
+                            .frame(width: 60, height: 60)
+                            .background(Color.white)
+                            .foregroundColor(Color.black)
+                            .clipShape(Circle())
+                            .padding(10)
+                            .shadow(radius: 20)
+                    }
+                    
+                    NavigationLink(destination: MyGeometryReaderVStack()) {
+                        Image(systemName: "g.square")
+                            .font(.system(size: 30))
+                            .frame(width: 60, height: 60)
+                            .background(Color.black)
+                            .foregroundColor(Color.yellow)
+                            .clipShape(Circle())
+                            .padding(10)
+                            .shadow(radius: 20)
+                    }
                 }
             }
             .navigationBarHidden(self.isNavigationBarHidden)
             .onAppear {
                 self.isNavigationBarHidden = true
             }
-        }
+        }.accentColor(Color.black)
     }
 }
 
